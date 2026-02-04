@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import StarField from './components/StarField';
-import BottomNav from './components/BottomNav';
-import Home from './views/Home';
-import ProjectView from './views/ProjectView';
-import CreationView from './views/CreationView';
-import { AppState, Project, Folder } from './types';
-import { MOCK_PROJECTS, MOCK_FOLDERS } from './constants';
-import { db, collection, onSnapshot, setDoc, doc, deleteDoc } from './firebase';
+import StarField from '../components/StarField';
+import BottomNav from '../components/BottomNav';
+import Home from '../views/Home';
+import ProjectView from '../views/ProjectView';
+import CreationView from '../views/CreationView';
+import { AppState, Project, Folder } from '../types';
+import { MOCK_PROJECTS, MOCK_FOLDERS } from '../constants';
+import { db, collection, onSnapshot, setDoc, doc, deleteDoc } from '../firebase';
 
 // Define Position Type locally or import if shared
 export interface NodePosition {
