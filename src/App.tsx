@@ -7,7 +7,7 @@ import CreationView from '../views/CreationView';
 import { AppState, Project, Folder } from '../types';
 import { MOCK_PROJECTS, MOCK_FOLDERS } from '../constants';
 import { db, collection, onSnapshot, setDoc, doc, deleteDoc } from '../firebase';
-
+console.log(111)
 // Define Position Type locally or import if shared
 export interface NodePosition {
   x: number;
