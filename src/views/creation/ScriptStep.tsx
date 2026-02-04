@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { GoogleGenAI, Type } from "@google/genai";
-import { Project, Episode, TextShot, Folder, Entity, Shot } from '../../types';
+import { Project, Episode, TextShot, Folder, Entity, Shot } from '../../../types';
 import { Sparkles, LayoutList, GripVertical, Plus, Wand2, Calendar, MapPin, Video, ChevronUp, ChevronDown, Folder as FolderIcon, Loader2, MessageSquare, Palette, X } from 'lucide-react';
 
 interface ScriptStepProps {

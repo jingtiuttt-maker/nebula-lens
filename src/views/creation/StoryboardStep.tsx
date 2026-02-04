@@ -1,9 +1,9 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { GoogleGenAI } from "@google/genai";
-import { Entity, Project, Shot, ShotHistory } from '../../types';
-import { INITIAL_ENTITIES, ANGLES } from '../../constants';
+import { Entity, Project, Shot, ShotHistory } from '../../../types';
+import { INITIAL_ENTITIES, ANGLES } from '../../../constants';
 import { Settings, Play, Image as ImageIcon, Video, Mic, RefreshCw, Plus, Trash2, Upload, Volume2, X, GripVertical, MoreHorizontal, ChevronLeft, ChevronRight, Edit2, Wand2, Loader2, Save } from 'lucide-react';
-import { uploadFileToStorage } from '../../firebase'; // Import helper
+import { uploadFileToStorage } from '../../../firebase'; // Import helper
 
 interface StoryboardStepProps {
   project: Project;
